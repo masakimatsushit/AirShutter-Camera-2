@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  AirShutter Camera 2
+
+  Created by matsushitamasaki on 2023/04/07.
+  
+*/
+"NSCameraUsageDescription" = "카메라 사용 허용";
+"NSPhotoLibraryUsageDescription" = "사진 저장 및 표시를 허용합니다";
+"CFBundleDisplayName" = "에어 셔터Pro";

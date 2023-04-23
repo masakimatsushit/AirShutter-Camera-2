@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  AirShutter Camera 2
+
+  Created by matsushitamasaki on 2023/04/07.
+  
+*/
+"NSCameraUsageDescription" = "カメラの使用を許可します";
+"NSPhotoLibraryUsageDescription" = "写真の保存、表示を許可します";
+"CFBundleDisplayName" = "エアシャッター2";

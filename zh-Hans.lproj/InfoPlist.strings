@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  AirShutter Camera 2
+
+  Created by matsushitamasaki on 2023/04/07.
+  
+*/
+"NSCameraUsageDescription" = "允许相机";
+"NSPhotoLibraryUsageDescription" = "保存和查看照片的权限";
+"CFBundleDisplayName" = "空气按钮相机2";

@@ -13,7 +13,42 @@
 		6DB3F74229DFA5B200804675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB3F74029DFA5B200804675 /* Main.storyboard */; };
 		6DB3F74429DFA5B300804675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DB3F74329DFA5B300804675 /* Assets.xcassets */; };
 		6DB3F74729DFA5B300804675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB3F74529DFA5B300804675 /* LaunchScreen.storyboard */; };
+		6DB3F74F29DFAD4200804675 /* checkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB3F74E29DFAD4100804675 /* checkViewController.swift */; };
+		6DB3F75829DFB36E00804675 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DB3F75A29DFB36E00804675 /* InfoPlist.strings */; };
+		6DB3F76529DFB3F200804675 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB3F76429DFB3F200804675 /* WidgetKit.framework */; };
+		6DB3F76729DFB3F200804675 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB3F76629DFB3F200804675 /* SwiftUI.framework */; };
+		6DB3F76A29DFB3F200804675 /* widget2Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB3F76929DFB3F200804675 /* widget2Bundle.swift */; };
+		6DB3F76C29DFB3F200804675 /* widget2LiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB3F76B29DFB3F200804675 /* widget2LiveActivity.swift */; };
+		6DB3F76E29DFB3F200804675 /* widget2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB3F76D29DFB3F200804675 /* widget2.swift */; };
+		6DB3F77129DFB3F300804675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DB3F77029DFB3F300804675 /* Assets.xcassets */; };
+		6DB3F77329DFB3F300804675 /* widget2.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 6DB3F76F29DFB3F200804675 /* widget2.intentdefinition */; };
+		6DB3F77429DFB3F300804675 /* widget2.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 6DB3F76F29DFB3F200804675 /* widget2.intentdefinition */; };
+		6DB3F77729DFB3F300804675 /* widget2Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6DB3F76229DFB3F200804675 /* widget2Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DB3F77529DFB3F300804675 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB3F72F29DFA5B200804675 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DB3F76129DFB3F200804675;
+			remoteInfo = widget2Extension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6DB3F77B29DFB3F300804675 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6DB3F77729DFB3F300804675 /* widget2Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6DB3F73729DFA5B200804675 /* AirShutter Camera 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AirShutter Camera 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +59,25 @@
 		6DB3F74329DFA5B300804675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DB3F74629DFA5B300804675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DB3F74829DFA5B300804675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DB3F74E29DFAD4100804675 /* checkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkViewController.swift; sourceTree = "<group>"; };
+		6DB3F75029DFB26800804675 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		6DB3F75129DFB26800804675 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		6DB3F75229DFB2B300804675 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		6DB3F75329DFB2B300804675 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		6DB3F75429DFB2BB00804675 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		6DB3F75529DFB2BB00804675 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		6DB3F75929DFB36E00804675 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		6DB3F75B29DFB37500804675 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6DB3F75C29DFB37500804675 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6DB3F76229DFB3F200804675 /* widget2Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = widget2Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB3F76429DFB3F200804675 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		6DB3F76629DFB3F200804675 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		6DB3F76929DFB3F200804675 /* widget2Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widget2Bundle.swift; sourceTree = "<group>"; };
+		6DB3F76B29DFB3F200804675 /* widget2LiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widget2LiveActivity.swift; sourceTree = "<group>"; };
+		6DB3F76D29DFB3F200804675 /* widget2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widget2.swift; sourceTree = "<group>"; };
+		6DB3F76F29DFB3F200804675 /* widget2.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = widget2.intentdefinition; sourceTree = "<group>"; };
+		6DB3F77029DFB3F300804675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DB3F77229DFB3F300804675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,13 +88,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6DB3F75F29DFB3F200804675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB3F76729DFB3F200804675 /* SwiftUI.framework in Frameworks */,
+				6DB3F76529DFB3F200804675 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		6DB3F72E29DFA5B200804675 = {
 			isa = PBXGroup;
 			children = (
+				6DB3F75A29DFB36E00804675 /* InfoPlist.strings */,
 				6DB3F73929DFA5B200804675 /* AirShutter Camera 2 */,
+				6DB3F76829DFB3F200804675 /* widget2 */,
+				6DB3F76329DFB3F200804675 /* Frameworks */,
 				6DB3F73829DFA5B200804675 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				6DB3F73729DFA5B200804675 /* AirShutter Camera 2.app */,
+				6DB3F76229DFB3F200804675 /* widget2Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,12 +126,35 @@
 				6DB3F73A29DFA5B200804675 /* AppDelegate.swift */,
 				6DB3F73C29DFA5B200804675 /* SceneDelegate.swift */,
 				6DB3F73E29DFA5B200804675 /* ViewController.swift */,
+				6DB3F74E29DFAD4100804675 /* checkViewController.swift */,
 				6DB3F74029DFA5B200804675 /* Main.storyboard */,
 				6DB3F74329DFA5B300804675 /* Assets.xcassets */,
 				6DB3F74529DFA5B300804675 /* LaunchScreen.storyboard */,
 				6DB3F74829DFA5B300804675 /* Info.plist */,
 			);
 			path = "AirShutter Camera 2";
+			sourceTree = "<group>";
+		};
+		6DB3F76329DFB3F200804675 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DB3F76429DFB3F200804675 /* WidgetKit.framework */,
+				6DB3F76629DFB3F200804675 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DB3F76829DFB3F200804675 /* widget2 */ = {
+			isa = PBXGroup;
+			children = (
+				6DB3F76929DFB3F200804675 /* widget2Bundle.swift */,
+				6DB3F76B29DFB3F200804675 /* widget2LiveActivity.swift */,
+				6DB3F76D29DFB3F200804675 /* widget2.swift */,
+				6DB3F76F29DFB3F200804675 /* widget2.intentdefinition */,
+				6DB3F77029DFB3F300804675 /* Assets.xcassets */,
+				6DB3F77229DFB3F300804675 /* Info.plist */,
+			);
+			path = widget2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,15 +167,34 @@
 				6DB3F73329DFA5B200804675 /* Sources */,
 				6DB3F73429DFA5B200804675 /* Frameworks */,
 				6DB3F73529DFA5B200804675 /* Resources */,
+				6DB3F77B29DFB3F300804675 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6DB3F77629DFB3F300804675 /* PBXTargetDependency */,
 			);
 			name = "AirShutter Camera 2";
 			productName = "AirShutter Camera 2";
 			productReference = 6DB3F73729DFA5B200804675 /* AirShutter Camera 2.app */;
 			productType = "com.apple.product-type.application";
+		};
+		6DB3F76129DFB3F200804675 /* widget2Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DB3F77829DFB3F300804675 /* Build configuration list for PBXNativeTarget "widget2Extension" */;
+			buildPhases = (
+				6DB3F75E29DFB3F200804675 /* Sources */,
+				6DB3F75F29DFB3F200804675 /* Frameworks */,
+				6DB3F76029DFB3F200804675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = widget2Extension;
+			productName = widget2Extension;
+			productReference = 6DB3F76229DFB3F200804675 /* widget2Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +209,9 @@
 					6DB3F73629DFA5B200804675 = {
 						CreatedOnToolsVersion = 14.2;
 					};
+					6DB3F76129DFB3F200804675 = {
+						CreatedOnToolsVersion = 14.2;
+					};
 				};
 			};
 			buildConfigurationList = 6DB3F73229DFA5B200804675 /* Build configuration list for PBXProject "AirShutter Camera 2" */;
@@ -109,6 +221,9 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				ja,
+				ko,
 			);
 			mainGroup = 6DB3F72E29DFA5B200804675;
 			productRefGroup = 6DB3F73829DFA5B200804675 /* Products */;
@@ -116,6 +231,7 @@
 			projectRoot = "";
 			targets = (
 				6DB3F73629DFA5B200804675 /* AirShutter Camera 2 */,
+				6DB3F76129DFB3F200804675 /* widget2Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -126,8 +242,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DB3F74729DFA5B300804675 /* LaunchScreen.storyboard in Resources */,
+				6DB3F75829DFB36E00804675 /* InfoPlist.strings in Resources */,
 				6DB3F74429DFA5B300804675 /* Assets.xcassets in Resources */,
 				6DB3F74229DFA5B200804675 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB3F76029DFB3F200804675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB3F77129DFB3F300804675 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,18 +264,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DB3F73F29DFA5B200804675 /* ViewController.swift in Sources */,
+				6DB3F77429DFB3F300804675 /* widget2.intentdefinition in Sources */,
+				6DB3F74F29DFAD4200804675 /* checkViewController.swift in Sources */,
 				6DB3F73B29DFA5B200804675 /* AppDelegate.swift in Sources */,
 				6DB3F73D29DFA5B200804675 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6DB3F75E29DFB3F200804675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB3F76E29DFB3F200804675 /* widget2.swift in Sources */,
+				6DB3F76A29DFB3F200804675 /* widget2Bundle.swift in Sources */,
+				6DB3F76C29DFB3F200804675 /* widget2LiveActivity.swift in Sources */,
+				6DB3F77329DFB3F300804675 /* widget2.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DB3F77629DFB3F300804675 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DB3F76129DFB3F200804675 /* widget2Extension */;
+			targetProxy = 6DB3F77529DFB3F300804675 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6DB3F74029DFA5B200804675 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6DB3F74129DFA5B200804675 /* Base */,
+				6DB3F75029DFB26800804675 /* zh-Hans */,
+				6DB3F75229DFB2B300804675 /* ja */,
+				6DB3F75429DFB2BB00804675 /* ko */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,8 +308,21 @@
 			isa = PBXVariantGroup;
 			children = (
 				6DB3F74629DFA5B300804675 /* Base */,
+				6DB3F75129DFB26800804675 /* zh-Hans */,
+				6DB3F75329DFB2B300804675 /* ja */,
+				6DB3F75529DFB2BB00804675 /* ko */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6DB3F75A29DFB36E00804675 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DB3F75929DFB36E00804675 /* zh-Hans */,
+				6DB3F75B29DFB37500804675 /* ja */,
+				6DB3F75C29DFB37500804675 /* ko */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -170,6 +332,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -216,7 +379,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -230,6 +393,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -270,7 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,56 +447,128 @@
 		6DB3F74C29DFA5B300804675 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.6;
 				DEVELOPMENT_TEAM = 575Q53PY3T;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "AirShutter Camera 2/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = AirShutterPro;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Request for the purpose of taking photos to be displayed and used in the app.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Request for the purpose of storing photos used in the app in the library.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.masaki.matsushita.AirShutter-Camera-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		6DB3F74D29DFA5B300804675 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.6;
 				DEVELOPMENT_TEAM = 575Q53PY3T;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "AirShutter Camera 2/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = AirShutterPro;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Request for the purpose of taking photos to be displayed and used in the app.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Request for the purpose of storing photos used in the app in the library.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.masaki.matsushita.AirShutter-Camera-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6DB3F77929DFB3F300804675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 575Q53PY3T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = widget2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = widget2;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.masaki.matsushita.AirShutter-Camera-2.widget2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6DB3F77A29DFB3F300804675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 575Q53PY3T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = widget2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = widget2;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.masaki.matsushita.AirShutter-Camera-2.widget2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -353,6 +589,15 @@
 			buildConfigurations = (
 				6DB3F74C29DFA5B300804675 /* Debug */,
 				6DB3F74D29DFA5B300804675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DB3F77829DFB3F300804675 /* Build configuration list for PBXNativeTarget "widget2Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB3F77929DFB3F300804675 /* Debug */,
+				6DB3F77A29DFB3F300804675 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
